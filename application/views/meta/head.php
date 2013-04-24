@@ -10,9 +10,13 @@
 	<title>Adapt.js - Adaptive CSS</title>
 	<link rel="stylesheet" href="assets/css/master.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/mobile.min.css" />
 	</noscript>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script>
 		// Edit to suit your needs.
 		var ADAPT_CONFIG = {

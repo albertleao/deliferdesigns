@@ -1,7 +1,11 @@
-@font-face
-{
+@font-face {
 font-family: orangejuice;
-src: url('../fonts/orangejuice.ttf');
+src: url('../font/orangejuice.ttf');
+}
+
+@font-face {
+    font-family: dayrom;
+    src: url('../font/DAYROM__.ttf');
 }
 
 #header_name {
@@ -29,8 +33,7 @@ src: url('../fonts/orangejuice.ttf');
 }
 
 .nav_item:hover {
-     box-shadow: inset 0px 0px 10px #663300, 0px 0px 20px #663300;
-     text-decoration: underline;
+    color: #666666;
 }
 
 
@@ -38,26 +41,15 @@ src: url('../fonts/orangejuice.ttf');
 
 #main_banner{
     background-image: url("/assets/images/woodbanner.jpg");
-    height: 300px;
-    position: relative;
+    text-align: center;
+    height: 185px;
+    padding-top: 75px;
+    font-size: 35px;
+    color: #f0f0f0;
 }
 
-#main_banner button {
-    position: absolute;
-    top: 40%;
-    left: 43%;
-    background: rgb(240,183,161); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(240,183,161,1) 0%, rgba(140,51,16,1) 50%, rgba(117,34,1,1) 51%, rgba(191,110,78,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,183,161,1)), color-stop(50%,rgba(140,51,16,1)), color-stop(51%,rgba(117,34,1,1)), color-stop(100%,rgba(191,110,78,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 50%,rgba(117,34,1,1) 51%,rgba(191,110,78,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
-    border: 0;
-    font-size: 30px;
-    color: white;
-    border-radius: 10px;
-    padding: 15px 20px 15px 20px;
-
+#main_banner span {
+    font-family:  dayrom;
+    font-weight: bold;
+    margin-top: 10px;
 }
