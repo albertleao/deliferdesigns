@@ -23,15 +23,31 @@
 			Have your own custom woodwork done.
 		</h1>
 
-		<ul>
-			<li>Custom Furniture</li>
-			<li>Bars</li>
-			<li>Shelves</li>
-			<li>Nightstands</li>
-			<li>Entertainment Centers</li>
-		</ul>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit interdum ipsum, id aliquam diam scelerisque id. Cras tincidunt eleifend turpis, non congue elit convallis in. Praesent facilisis ultrices sem, non varius nulla luctus sit amet. Quisque sit amet tellus tortor. Proin nec leo sagittis ante aliquet laoreet. Sed massa enim, venenatis a condimentum vel, pharetra non neque. Vivamus venenatis leo sagittis magna vestibulum sed hendrerit velit vulputate. Ut a nisl sapien, vitae tristique leo. Duis nec metus id lacus molestie lobortis. Donec commodo vehicula sollicitudin. Donec id neque velit, sed scelerisque quam. Sed nulla augue, blandit et egestas et, faucibus id lectus. Pellentesque tincidunt, nisi at cursus luctus, nibh mauris porttitor est, sit amet pretium nunc metus at est. Suspendisse nulla dui, semper eu accumsan ac, dignissim ut diam.
+		</p>
 
 	</div>
+
+	<div class="grid_5">
+		<h1>
+			History
+		</h1>
+
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit interdum ipsum, id aliquam diam scelerisque id. Cras tincidunt eleifend turpis, non congue elit convallis in. Praesent facilisis ultrices sem, non varius nulla luctus sit amet. Quisque sit amet tellus tortor. Proin nec leo sagittis ante aliquet laoreet. Sed massa enim, venenatis a condimentum vel, pharetra non neque. Vivamus venenatis leo sagittis magna vestibulum sed hendrerit velit vulputate. Ut a nisl sapien, vitae tristique leo. Duis nec metus id lacus molestie lobortis. Donec commodo vehicula sollicitudin. Donec id neque velit, sed scelerisque quam. Sed nulla augue, blandit et egestas et, faucibus id lectus. Pellentesque tincidunt, nisi at cursus luctus, nibh mauris porttitor est, sit amet pretium nunc metus at est. Suspendisse nulla dui, semper eu accumsan ac, dignissim ut diam.
+		</p>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="grid_12">
+		<h1>
+			This is where we talk
+		</h1>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit interdum ipsum, id aliquam diam scelerisque id. Cras tincidunt eleifend turpis, non congue elit convallis in. Praesent facilisis ultrices sem, non varius nulla luctus sit amet. Quisque sit amet tellus tortor. Proin nec leo sagittis ante aliquet laoreet. Sed massa enim, venenatis a condimentum vel, pharetra non neque. Vivamus venenatis leo sagittis magna vestibulum sed hendrerit velit vulputate. Ut a nisl sapien, vitae tristique leo. Duis nec metus id lacus molestie lobortis. Donec commodo vehicula sollicitudin. Donec id neque velit, sed scelerisque quam. Sed nulla augue, blandit et egestas et, faucibus id lectus. Pellentesque tincidunt, nisi at cursus luctus, nibh mauris porttitor est, sit amet pretium nunc metus at est. Suspendisse nulla dui, semper eu accumsan ac, dignissim ut diam.
+	</div>
+
 
 </div>
 
@@ -43,8 +59,6 @@
 	$("#order").addClass('animated rotateIn');
 
 	$("#gallery").click(function(){
-		$(this).removeClass("animated rotateIn").addClass('animated bounceOutUp').delay(500).fadeOut("slow", function() {
-			$("#main_banner").fadeOut("slow")
-		})
+		$(this).removeClass("animated rotateIn").addClass('animated bounceOutUp')
 	})
 </script>
